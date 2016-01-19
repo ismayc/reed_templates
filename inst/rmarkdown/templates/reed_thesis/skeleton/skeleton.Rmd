@@ -3,12 +3,15 @@ author: 'Your R. Name'
 date: 'May 20xx'
 division: 'Mathematics and Natural Sciences'
 advisor: 'Advisor F. Name'
+altadvisor: 'Your Other Advisor'
+# Delete line 6 if you only have one advisor
 department: 'Mathematics'
 title: 'My Final College Paper'
 abstract: >
   `r paste(readLines('abstract.Rmd'), collapse = '\n')`
 # If you'd rather include the preliminary content in files instead of inline
-# like below, use a command like that for the abstract above.  Note that a tab is # needed on the line after the >.
+# like below, use a command like that for the abstract above.  Note that a tab is 
+# needed on the line after the >.
 acknowledgements: >
   I want to thank a few people.
 dedication: >
