@@ -88,7 +88,11 @@
 
 \renewcommand{\contentsname}{Table of Contents}
 
-\setlength{\parskip}{0pt}
+%\setlength{\parskip}{0pt}
+
+$if(space_between_paragraphs)$
+  \setlength{\parskip}{\baselineskip}
+$endif$
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}

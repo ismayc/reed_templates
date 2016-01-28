@@ -27,6 +27,7 @@ output:
     toc: true
 lot: true
 lof: true
+space_between_paragraphs: true
 #header-includes:
 #- \usepackage{tikz}
 ---
