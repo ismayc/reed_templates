@@ -25,7 +25,9 @@ csl: csl/apa.csl
 output: 
   reedtemplates::reed_thesis:
     toc: true
-    toc_depth: 5
+#    toc_depth: 5
+# Delete the # in line 28 to specify the depth of your table of contents
+# Default is set to 3 (chapter, section, subsection)
 lot: true
 lof: true
 #space_between_paragraphs: true
