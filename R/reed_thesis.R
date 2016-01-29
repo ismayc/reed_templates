@@ -1,10 +1,10 @@
 #' @export
-reed_thesis <- function(toc = TRUE) {
+reed_thesis <- function(toc = TRUE, toc_depth = 3) {
   template <- find_resource("reed_thesis", "template.tex")
 
   base <- rmarkdown::pdf_document(template = template,
                                   toc = toc,
-                                  toc_depth = 3,
+                                  toc_depth = toc_depth,
                                   highlight = "pygments",
                                   keep_tex = TRUE,
                                   pandoc_args = "--chapters")

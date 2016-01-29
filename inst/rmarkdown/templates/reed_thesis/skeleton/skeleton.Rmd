@@ -25,6 +25,7 @@ csl: csl/apa.csl
 output: 
   reedtemplates::reed_thesis:
     toc: true
+    toc_depth: 5
 lot: true
 lof: true
 #space_between_paragraphs: true
