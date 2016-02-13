@@ -83,9 +83,8 @@ reed_thesis <- function(toc = TRUE, toc_depth = 3) {
 #'   features
 #' @examples
 #' \dontrun{
-#'  output:
-#'    reedtemplates::reed_thesis:
-#'      toc: true
+#'  label(path = "figure/reed.jpg", caption = "Reed logo",
+#'        label = "reed", type = "figure")
 #' }
 label <- function(path = NULL,
                   caption = "Default caption",
