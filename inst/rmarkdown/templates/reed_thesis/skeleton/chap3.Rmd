@@ -33,7 +33,7 @@ flights <- read.csv("data/flights.csv")
 
 ## Tables
 
-In addition to the tables that can be automatically generated from a data frame in **R** that you saw in [R Markdown Basics] using the `kable` function, you can also create tables using _pandoc_. (More information is available at <http://pandoc.org/README.html#tables>.)  This might be useful if you don't have values specifically stored in **R**, but you'd like to display them in table form.  Below is an example.  Pay careful attention to the alignment in the table and the use of the hyphens to create the rows and columns.
+In addition to the tables that can be automatically generated from a data frame in **R** that you saw in [R Markdown Basics] using the `kable` function, you can also create tables using _pandoc_. (More information is available at <http://pandoc.org/README.html#tables>.)  This might be useful if you don't have values specifically stored in **R**, but you'd like to display them in table form.  Below is an example.  Pay careful attention to the alignment in the table and hyphens to create the rows and columns.
 
 ----------------------------------------------------------------------------------
   Factors                    Correlation between Parents & Child      Inherited
@@ -133,7 +133,7 @@ As another example, here is a reference to this figure: `r ref("subd2", type = "
 
 #### Common Modifications
 
-The following figure features the more popular changes thesis students want to their figures. We can add math to the caption that displays below the picture, specify the size of our caption to display below the figure (list of sizes available at this [link](http://www.emerson.emory.edu/services/latex/latex_169.html#SEC169)), and also specify that a different caption `alt.cap` be what appears in the Table of Figures for this figure.
+The following figure features the more popular changes thesis students want to make to their figures. We can add math to the caption that displays below the picture, specify the size of our caption to display below the figure (list of sizes available at this [link](http://www.emerson.emory.edu/services/latex/latex_169.html#SEC169)), and also specify that a different caption `alt.cap` be what appears in the Table of Figures for this figure.
 
 If you'd like to make further tweaks to figures, you might need to invoke some \LaTeX\ code.  Please email us at <data@reed.edu> if you need assistance.
 
