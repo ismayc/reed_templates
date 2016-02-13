@@ -44,9 +44,8 @@ their document
 }
 \examples{
 \dontrun{
- output:
-   reedtemplates::reed_thesis:
-     toc: true
+ label(path = "figure/reed.jpg", caption = "Reed logo",
+       label = "reed", type = "figure")
 }
 }
 
