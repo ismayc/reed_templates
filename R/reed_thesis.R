@@ -92,8 +92,8 @@ label <- function(path = NULL,
                   type = "figure",
                   alt.cap = caption,
                   cap.size = "normalsize",
-                  scale = 1,
                   angle = 0,
+                  scale = 1,
                   options = "h!tbp"){
   if(type == "figure"){
     cat(
