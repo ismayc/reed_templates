@@ -100,8 +100,8 @@ label <- function(path = NULL,
       paste0(
         "\n\\begin{figure}[", options, "]\n",
         "\\centering\n",
-        "\\includegraphics[", angle = ", angle, ","
-        scale = ", scale, "]{",
+        "\\includegraphics[angle = ", angle, ",",
+        "scale = ", scale, "]{",
         path, "}\n",
         "\\caption[", caption,"]{\\", cap.size, "{", alt.cap,"}}\n",
         "\\label{fig:", label, "}\n",
