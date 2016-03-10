@@ -64,6 +64,7 @@ reed_thesis <- function(toc = TRUE, toc_depth = 3, type = "pdf") {
                                     highlight = "pygments",
                                     keep_md = TRUE,
                                     pandoc_args = "--chapters")
+    base
   }
 }
 
