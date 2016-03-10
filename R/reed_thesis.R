@@ -14,7 +14,7 @@
 #'    reedtemplates::reed_thesis:
 #'      toc: true
 #' }
-reed_thesis <- function(toc = TRUE, toc_depth = 3)#,
+reed_thesis <- function(toc = TRUE, toc_depth = 3){#,
   #type = "pdf") {
   template <- find_resource("reed_thesis", "template.tex")
 
