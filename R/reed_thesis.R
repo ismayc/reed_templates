@@ -17,7 +17,7 @@
 reed_thesis <- function(toc = TRUE, toc_depth = 3, type = "pdf") {
   template <- find_resource("reed_thesis", "template.tex")
 
-  if(type = "pdf"){
+  if(type == "pdf"){
     base <- rmarkdown::pdf_document(template = template,
                                     toc = toc,
                                     toc_depth = toc_depth,
@@ -58,7 +58,7 @@ reed_thesis <- function(toc = TRUE, toc_depth = 3, type = "pdf") {
     base
   }
 
-  if(type = "word"){
+  if(type == "word"){
     base <- rmarkdown::word_document(toc = toc,
                                     toc_depth = toc_depth,
                                     highlight = "pygments",
