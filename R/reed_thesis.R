@@ -14,10 +14,11 @@
 #'    reedtemplates::reed_thesis:
 #'      toc: true
 #' }
-reed_thesis <- function(toc = TRUE, toc_depth = 3, type = "pdf") {
+reed_thesis <- function(toc = TRUE, toc_depth = 3)#,
+  #type = "pdf") {
   template <- find_resource("reed_thesis", "template.tex")
 
-  if(type == "pdf"){
+#  if(type == "pdf"){
     base <- rmarkdown::pdf_document(template = template,
                                     toc = toc,
                                     toc_depth = toc_depth,
@@ -56,16 +57,16 @@ reed_thesis <- function(toc = TRUE, toc_depth = 3, type = "pdf") {
     base$knitr$knit_hooks$plot <- knitr:::hook_plot_tex
 
     base
-  }
+#  }
 
-  if(type == "word"){
-    base <- rmarkdown::word_document(toc = toc,
-                                    toc_depth = toc_depth,
-                                    highlight = "pygments",
-                                    keep_md = TRUE,
-                                    pandoc_args = "--chapters")
-    base
-  }
+  # if(type == "word"){
+  #   base <- rmarkdown::word_document(toc = toc,
+  #                                   toc_depth = toc_depth,
+  #                                   highlight = "pygments",
+  #                                   keep_md = TRUE,
+  #                                   pandoc_args = "--chapters")
+  #   base
+  # }
 }
 
 #' Adds a label to a figure/chemical reaction and includes the figure in the
