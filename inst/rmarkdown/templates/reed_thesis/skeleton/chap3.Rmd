@@ -93,15 +93,14 @@ delay_airline <- flights %>% group_by(carrier) %>%
   summarize(mean_dep_delay = mean(dep_delay)) %>%
   ggplot(aes(x = carrier, y = mean_dep_delay)) +
   geom_bar(position = "identity", stat = "identity", fill = "red")
-ggsave("figure/delays.png", plot = delay_airline, 
-       width = 5, height = 3)
+ggsave("figure/delays.pdf", plot = delay_airline,
+  height = 3, width = 6)
 ```
 
 ```{r box_label, results = "asis"}
-label(path = "figure/delays.png", 
+label(path = "figure/delays.pdf", 
       caption = "Mean Delays by Airline", 
-      label = "delays", type = "figure",
-      scale = 0.3)
+      label = "delays", type = "figure")
 ```
 
 A table linking these carrier codes to airline names is available at <https://github.com/ismayc/pnwflights14/blob/master/data/airlines.csv>.
