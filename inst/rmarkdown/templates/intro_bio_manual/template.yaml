@@ -1,0 +1,5 @@
+name: Bio 101/102 RStudio Manual
+description: >
+ A rewriting of the Intro Bio Manual to use R instead of JMP at Reed
+create_dir: true
+
