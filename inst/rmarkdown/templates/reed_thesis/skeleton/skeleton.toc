@@ -1,0 +1,34 @@
+\contentsline {chapter}{Introduction}{1}{chapter*.8}
+\contentsline {subsubsection}{Why use it?}{1}{section*.9}
+\contentsline {subsubsection}{Who should use it?}{1}{section*.10}
+\contentsline {chapter}{Chapter 1: R Markdown Basics}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Lists}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Line breaks}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}R chunks}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Inline code}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Including plots}{5}{section.1.5}
+\contentsline {section}{\numberline {1.6}Loading and exploring data}{5}{section.1.6}
+\contentsline {section}{\numberline {1.7}Additional resources}{8}{section.1.7}
+\contentsline {chapter}{Chapter 2: Mathematics and Science}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Math}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Chemistry 101: Symbols}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Typesetting reactions}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Other examples of reactions}{10}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Physics}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}Biology}{10}{section.2.4}
+\contentsline {chapter}{Chapter 3: Tables, Graphics, References, and Labels}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Tables}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Figures}{12}{section.3.2}
+\contentsline {subsubsection}{More Figure Stuff}{14}{section*.15}
+\contentsline {subsubsection}{Common Modifications}{15}{section*.17}
+\contentsline {section}{\numberline {3.3}Footnotes and Endnotes}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Bibliographies}{15}{section.3.4}
+\contentsline {paragraph}{Tips for Bibliographies}{16}{section*.19}
+\contentsline {section}{\numberline {3.5}Anything else?}{17}{section.3.5}
+\contentsline {chapter}{Conclusion}{19}{chapter*.20}
+\contentsline {subsubsection}{More info}{19}{section*.21}
+\contentsline {chapter}{Appendix A: The First Appendix}{21}{appendix.A}
+\contentsline {subsubsection}{In the main Rmd file:}{21}{section*.22}
+\contentsline {subsubsection}{In \hyperlink {refux5flabels}{}:}{21}{section*.23}
+\contentsline {chapter}{Appendix B: The Second Appendix, for Fun}{23}{appendix.B}
+\contentsline {chapter}{References}{25}{appendix*.24}
