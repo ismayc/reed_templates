@@ -1,0 +1,5 @@
+calcium,membrane,count
+with calcium,membrane,95
+with calcium,no membrane,19
+without calcium,membrane,10
+without calcium,no membrane,90
