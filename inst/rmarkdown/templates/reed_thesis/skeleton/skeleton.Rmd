@@ -8,7 +8,7 @@ altadvisor: 'Your Other Advisor'
 department: 'Mathematics'
 title: 'My Final College Paper'
 abstract: >
-  `r paste(readLines('abstract.Rmd'), collapse = '\n')`
+  `r paste(readLines('abstract.Rmd'), collapse = ' ')`
 # If you'd rather include the preliminary content in files instead of inline
 # like below, use a command like that for the abstract above.  Note that a tab is 
 # needed on the line after the >.
