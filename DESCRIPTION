@@ -5,8 +5,9 @@ Version: 0.1
 Date: 2015-10-29
 Author: Chester Ismay
 Maintainer: Chester Ismay <cismay@reed.edu>
-Description: This package will contain a variety of different templates for journals,
-    classroom projects, theses, books, etc.
+Description: This package will contain a variety of different templates for
+    journals, classroom projects, theses, books, etc.
 License: MIT + file LICENSE
 Imports:
     rmarkdown
+RoxygenNote: 5.0.1
