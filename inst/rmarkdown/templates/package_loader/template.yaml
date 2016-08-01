@@ -1,5 +1,5 @@
 name: Package Loader
 description: >
  Template that includes code to install and load in a variety of helpful packages
-create_dir: true
+create_dir: false
 
