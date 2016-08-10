@@ -99,7 +99,7 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-
+% End of CII add
 
 % This gives us rules below the headers
 \AtBeginDocument{%
@@ -131,8 +131,6 @@
     \addcontentsline{toc}{chapter}{\indexname}
   }{\endoldtheindex}
 }
-
-%\usepackage{natbib}
 
 % Stolen from book.cls and modified
 \let\RToldchapter\chapter
@@ -248,6 +246,7 @@
   \chapter*{Preface}
   \fontsize{12}{14}\selectfont
 }{\clearpage \if@restonecol\twocolumn\fi}%
+% End of CII add
 
 \newenvironment{abstract}{%
   \if@twocolumn
@@ -354,17 +353,4 @@
 \newcommand{\Acknowledgements}[1]{\def\@Acknowledgements{#1}}
 \newcommand{\Dedication}[1]{\def\@Dedication{#1}}
 \newcommand{\Preface}[1]{\def\@Preface{#1}}
-
-%% Sweave(-like)
-%\DefineVerbatimEnvironment{Sinput}{Verbatim}{fontshape=sl, frame=single}
-%\DefineVerbatimEnvironment{Soutput}{Verbatim}{}
-%\DefineVerbatimEnvironment{Scode}{Verbatim}{fontshape=sl, frame=single}
-%\newenvironment{Schunk}{}{}
-%\DefineVerbatimEnvironment{Code}{Verbatim}{}
-%\DefineVerbatimEnvironment{CodeInput}{Verbatim}{frame=single}
-%\usepackage{minted}
-%\renewenvironment{CodeInput}{\minted[frame=single]{r}}{\endminted}
-%\DefineVerbatimEnvironment{CodeOutput}{Verbatim}{}
-%\newenvironment{CodeChunk}{}{}
-% \setkeys{Gin}{width=0.8\textwidth}
-
+% End of CII add
