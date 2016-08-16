@@ -139,11 +139,12 @@ max_delays <- flights2 %>% group_by(carrier_name) %>%
   summarize(max_arr_delay = max(arr_delay, na.rm = TRUE))
 ```
 
-We next introduce a useful function in the `knitr` package for making nice tables in _R Markdown_ called `kable`.  It produces the \LaTeX\ code required to make the table and is much easier to use than manually entering values into a table by copying and pasting values into Excel or \LaTeX.  This again goes to show how nice reproducible documents can be!  There is no need to copy-and-paste values to create a table.  (Note the use of `results = "asis"` here which will produce the table instead of the code to create the table.  You'll learn more about the `\\label` later.)
+We next introduce a useful function in the `knitr` package for making nice tables in _R Markdown_ called `kable`.  It produces the \LaTeX\ code required to make the table and is much easier to use than manually entering values into a table by copying and pasting values into Excel or \LaTeX.  This again goes to show how nice reproducible documents can be!  There is no need to copy-and-paste values to create a table.  (Note the use of `results = "asis"` here which will produce the table instead of the code to create the table.  You'll learn more about the `\\label` later.)  The `caption.short` argument is used to include a shorter version of the title to appear in the List of Tables at the beginning of the document.
 
 ```{r table_out, results = "asis"}
 kable(max_delays, col.names = c("Airline", "Max Arrival Delay"),
-      caption = "Max Delays by Airline \\label{tab:max_delay}")
+      caption = "Maximum Delays by Airline \\label{tab:max_delay}",
+      caption.short = "Max Delays by Airline")
 ```
 
 We can further look into the properties of the largest value here for American Airlines Inc.  To do so, we can isolate the row corresponding to the arrival delay of 1539 minutes for American in our original `flights` dataset.

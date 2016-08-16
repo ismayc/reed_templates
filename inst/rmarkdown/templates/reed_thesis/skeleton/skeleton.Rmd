@@ -45,7 +45,7 @@ If you'd prefer to not include a Dedication, for example, simply delete lines 17
 If you'd like to include a comment that won't be produced in your resulting PDF file enclose it in a block like this.
 -->
 
-```{r include_packages, include = FALSE}
+```{r include_packages, include=FALSE}
 # This chunk ensures that the reedtemplates package is
 # installed and loaded. This reedtemplates package includes
 # the template files for the thesis and also two functions
