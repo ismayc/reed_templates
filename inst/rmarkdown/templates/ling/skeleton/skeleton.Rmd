@@ -44,3 +44,30 @@ Many more examples are available by clicking on the link [here](https://www.shar
 ## Additional help on PDF Documents
 
 Check out the RStudio support page on creating PDF documents at <http://rmarkdown.rstudio.com/pdf_document_format.html>.
+
+\newpage
+
+## Labeling and referring to objects
+
+### In LaTeX
+
+Here is the way to do this in \LaTeX\.
+
+\begin{figure}[H]
+  \centering
+    \includegraphics{sameer}
+  \caption{Sameer photo}
+  \label{fig:sameer}
+\end{figure}
+
+Here is a reference to the photo:  Figure \ref{fig:sameer}.
+
+\newpage
+
+### In R Markdown
+
+```{r sameer2, fig.cap="Sameer photo from R Markdown", fig.align='center', fig.pos='H'}
+knitr::include_graphics("sameer.jpg")
+```
+
+Here is a reference to the photo from R Markdown: Figure \ref{fig:sameer2}.
